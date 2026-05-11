@@ -19,7 +19,9 @@ Our final evaluation metrics:
 - **Specificity:** 96.28%
 
 ## Repository Contents
-- `Fraud_Detection_J48.model`: The final trained model exported directly from WEKA.
+- `Model_before_SMOTE.model`: The initial J48 model trained on raw data (demonstrates the class imbalance issue with 0 actual fraud detection).
+- `Model_after_SMOTE.model`: The optimized J48 model after applying the SMOTE filter (successfully detects fraud with high precision).
+- `fraud.csv`: The dataset used for training and testing the models.
 - `Presentation.pdf`: The presentation slides used for our project defense.
 
 ## Team Members
